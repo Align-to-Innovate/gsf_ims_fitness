@@ -1,0 +1,9 @@
+pandas
+scipy
+cmdstanpy
+seaborn
+matplotlib
+palettable
+cmocean
+scikit-learn
+pyyaml

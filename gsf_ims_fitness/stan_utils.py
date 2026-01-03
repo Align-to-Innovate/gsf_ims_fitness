@@ -1,6 +1,5 @@
 
 import cmdstanpy
-import pickle
 import numpy as np
 import pandas as pd
 import os
@@ -20,7 +19,7 @@ def compile_model(filename, file_in_repository_models=True, check_includes=True,
 
     return_directory = os.getcwd()
     if file_in_repository_models:
-        os.chdir(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'Stan models'))
+        os.chdir(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'stan_models'))
     
     lines = file_to_list(filename)
     
