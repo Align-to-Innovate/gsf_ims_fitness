@@ -2344,7 +2344,7 @@ class BarSeqFitnessFrame:
             stan_data_protease_0['log_fraction_sigma'] = 0.3
 
             stan_data_protease_0['n_prot_mu'] = 1
-            stan_data_protease_0['n_prot_sigma'] = 0.3
+            stan_data_protease_0['n_prot_sigma'] = 0.2
             
             # Dictionary for the initialization of the parameters for the Stan fit:
             log_ec50_prot_init = np.array([self.log_protease_levels.mean()-0.5, self.log_protease_levels.mean()+0.5])
